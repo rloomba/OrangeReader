@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		020A0D4622DC501C75F8FA29 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85E2BF1D271D9AFD3A156D8 /* DetailViewModel.swift */; };
+		1792B66B1832555DC0FE2943 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5474633385FA65BA27F11A8C /* SafariView.swift */; };
+		1B19C6398E200939BB8AF8AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9A4549759307551084B0772 /* Assets.xcassets */; };
+		256DE56A966C155E9F7CB892 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317D5540EB9C5B978AE19F29 /* Formatters.swift */; };
+		45E407AAFD0F4E9E2611336B /* FeedType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07289CD1035AE3403D57D6D /* FeedType.swift */; };
+		4ED660D1EB1F44588A038363 /* HTMLRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D440FF216E27361EFFD69A7 /* HTMLRenderer.swift */; };
+		5B6DFA26992F99EF1F32B31C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19401D6F9503AAE891480E2 /* DetailView.swift */; };
+		61285DCCDBE6E15CC3026799 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B570B49CCABD5C11D79A8C85 /* AppSettings.swift */; };
+		68205EC4841CE5836262345B /* HNAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5747E64CEEB0E684AF6CA166 /* HNAPIClient.swift */; };
+		7A5949CF8AB9A3BA4A11B7B1 /* ReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40936E29F0D937A76BD685A /* ReaderView.swift */; };
+		7AC57D69E9A5209A2AADCAB5 /* FaviconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC30FC6F889CA141B115F14 /* FaviconView.swift */; };
+		86103D52364DE7DA2EF1E102 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E880F172B30F8276E3698EB3 /* Item.swift */; };
+		9481E6686EAD270A63D009FB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D2BBD0C36F724108498EFA /* SettingsView.swift */; };
+		B3DB2B1755830455C2C74FC6 /* MinimalHackerNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E8E3B436CDC3FA65C5D845 /* MinimalHackerNewsTests.swift */; };
+		CD22182DB8D34C1EA839DAAE /* ReaderExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61101C82A655A3DB67D8745 /* ReaderExtractor.swift */; };
+		D66279397AED0AFF364DEB7B /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05B34452000BCD069319D4B /* App.swift */; };
+		D729E58E268EF6ED1DD96724 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439D5E37CC5176113086EFE5 /* FeedViewModel.swift */; };
+		DF52AD59EB7D55F5AB12A19B /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCD4DC4261DAE3312AB4184 /* FeedView.swift */; };
+		E8A4888F710BB5D5BA65681D /* StoryMetaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FF15F205635314BF91EA6D /* StoryMetaView.swift */; };
+		EF2A428291558A9FBEC59DB7 /* ReaderModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20977185EE64FA56533A4CB9 /* ReaderModels.swift */; };
+		F0028C6C9834350667D214F0 /* Readability in Frameworks */ = {isa = PBXBuildFile; productRef = E683AE05FA3E9AE0531B7418 /* Readability */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFB81E0DFB61E3F75FD3F2A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E12EF824CFFDBF9D022F1A4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D615ADE30ABF60D6F791C4C;
+			remoteInfo = "Orange Reader";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13CD17B74B83C4C4479C3EE4 /* OrangeReaderTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = OrangeReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20977185EE64FA56533A4CB9 /* ReaderModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderModels.swift; sourceTree = "<group>"; };
+		28D2BBD0C36F724108498EFA /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		317D5540EB9C5B978AE19F29 /* Formatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatters.swift; sourceTree = "<group>"; };
+		439D5E37CC5176113086EFE5 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		5474633385FA65BA27F11A8C /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		5747E64CEEB0E684AF6CA166 /* HNAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HNAPIClient.swift; sourceTree = "<group>"; };
+		5D440FF216E27361EFFD69A7 /* HTMLRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMLRenderer.swift; sourceTree = "<group>"; };
+		6FC30FC6F889CA141B115F14 /* FaviconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaviconView.swift; sourceTree = "<group>"; };
+		7F11F7BBD670276DD139CED0 /* Orange Reader.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = "Orange Reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83BC2A90E7A43D7607D15489 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8FCD4DC4261DAE3312AB4184 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		A9A4549759307551084B0772 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B07289CD1035AE3403D57D6D /* FeedType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedType.swift; sourceTree = "<group>"; };
+		B40936E29F0D937A76BD685A /* ReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderView.swift; sourceTree = "<group>"; };
+		B570B49CCABD5C11D79A8C85 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		B6E8E3B436CDC3FA65C5D845 /* MinimalHackerNewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimalHackerNewsTests.swift; sourceTree = "<group>"; };
+		B85E2BF1D271D9AFD3A156D8 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		C05B34452000BCD069319D4B /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		C19401D6F9503AAE891480E2 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		E880F172B30F8276E3698EB3 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		F61101C82A655A3DB67D8745 /* ReaderExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReaderExtractor.swift; sourceTree = "<group>"; };
+		F7FF15F205635314BF91EA6D /* StoryMetaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryMetaView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		517EC36F3BB0B6B62B68CDE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0028C6C9834350667D214F0 /* Readability in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		141A280525273E3F3E905926 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				5747E64CEEB0E684AF6CA166 /* HNAPIClient.swift */,
+				5D440FF216E27361EFFD69A7 /* HTMLRenderer.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		169FE626F34DE783FD66620D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C05B34452000BCD069319D4B /* App.swift */,
+				83BC2A90E7A43D7607D15489 /* Info.plist */,
+				48C614873BAA0760AA7FC167 /* Components */,
+				D2BC0B7F140088D3135FE013 /* Features */,
+				634343243F69E4BE64D2B816 /* Models */,
+				141A280525273E3F3E905926 /* Networking */,
+				F392D45AD6BF891C41725964 /* Reader */,
+				AF89FBB3A191654BB3CF71F4 /* Resources */,
+				F0EB10304ECA771D8DE556DA /* Settings */,
+				FCF73CC5F964A9040BC5C759 /* Utilities */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		42174915B7AD043D42DC0FE9 = {
+			isa = PBXGroup;
+			children = (
+				169FE626F34DE783FD66620D /* App */,
+				58FFBC8C278E8D70458FD6D3 /* Tests */,
+				9924C406C6477D6F9C7881D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48C614873BAA0760AA7FC167 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				6FC30FC6F889CA141B115F14 /* FaviconView.swift */,
+				5474633385FA65BA27F11A8C /* SafariView.swift */,
+				F7FF15F205635314BF91EA6D /* StoryMetaView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		58FFBC8C278E8D70458FD6D3 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B6E8E3B436CDC3FA65C5D845 /* MinimalHackerNewsTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		634343243F69E4BE64D2B816 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B07289CD1035AE3403D57D6D /* FeedType.swift */,
+				E880F172B30F8276E3698EB3 /* Item.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9924C406C6477D6F9C7881D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F11F7BBD670276DD139CED0 /* Orange Reader.app */,
+				13CD17B74B83C4C4479C3EE4 /* OrangeReaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9ED8C3CDEEBCAC2665BC2971 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				8FCD4DC4261DAE3312AB4184 /* FeedView.swift */,
+				439D5E37CC5176113086EFE5 /* FeedViewModel.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		AF89FBB3A191654BB3CF71F4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A9A4549759307551084B0772 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B2CE9B2CD14643E67E429F8E /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				28D2BBD0C36F724108498EFA /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		D2BC0B7F140088D3135FE013 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				D825A0A6DF8CA766BE3DBFEC /* Detail */,
+				9ED8C3CDEEBCAC2665BC2971 /* Feed */,
+				B2CE9B2CD14643E67E429F8E /* Settings */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		D825A0A6DF8CA766BE3DBFEC /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				C19401D6F9503AAE891480E2 /* DetailView.swift */,
+				B85E2BF1D271D9AFD3A156D8 /* DetailViewModel.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		F0EB10304ECA771D8DE556DA /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B570B49CCABD5C11D79A8C85 /* AppSettings.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		F392D45AD6BF891C41725964 /* Reader */ = {
+			isa = PBXGroup;
+			children = (
+				F61101C82A655A3DB67D8745 /* ReaderExtractor.swift */,
+				20977185EE64FA56533A4CB9 /* ReaderModels.swift */,
+				B40936E29F0D937A76BD685A /* ReaderView.swift */,
+			);
+			path = Reader;
+			sourceTree = "<group>";
+		};
+		FCF73CC5F964A9040BC5C759 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				317D5540EB9C5B978AE19F29 /* Formatters.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D615ADE30ABF60D6F791C4C /* Orange Reader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6E90E27E351D7C86D137D76 /* Build configuration list for PBXNativeTarget "Orange Reader" */;
+			buildPhases = (
+				3E7DB578AD57D1C99A8EFF26 /* Sources */,
+				513BDBBCAF13B0163606005F /* Resources */,
+				517EC36F3BB0B6B62B68CDE2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Orange Reader";
+			packageProductDependencies = (
+				E683AE05FA3E9AE0531B7418 /* Readability */,
+			);
+			productName = "Orange Reader";
+			productReference = 7F11F7BBD670276DD139CED0 /* Orange Reader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4E658D848A7971735F347E5 /* OrangeReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58682CC1FE92DCC92DFDC89F /* Build configuration list for PBXNativeTarget "OrangeReaderTests" */;
+			buildPhases = (
+				336F488AD29A28F1E16AF2C7 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				580688521204B94674FAA4FE /* PBXTargetDependency */,
+			);
+			name = OrangeReaderTests;
+			packageProductDependencies = (
+			);
+			productName = OrangeReaderTests;
+			productReference = 13CD17B74B83C4C4479C3EE4 /* OrangeReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E12EF824CFFDBF9D022F1A4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3D615ADE30ABF60D6F791C4C = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C5B026965F1AA2D59353A187 /* Build configuration list for PBXProject "OrangeReader" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 42174915B7AD043D42DC0FE9;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				87B55ED4DDCEE9942EADF1DD /* XCRemoteSwiftPackageReference "swift-readability" */,
+			);
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D615ADE30ABF60D6F791C4C /* Orange Reader */,
+				F4E658D848A7971735F347E5 /* OrangeReaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		513BDBBCAF13B0163606005F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B19C6398E200939BB8AF8AC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		336F488AD29A28F1E16AF2C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3DB2B1755830455C2C74FC6 /* MinimalHackerNewsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E7DB578AD57D1C99A8EFF26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66279397AED0AFF364DEB7B /* App.swift in Sources */,
+				61285DCCDBE6E15CC3026799 /* AppSettings.swift in Sources */,
+				5B6DFA26992F99EF1F32B31C /* DetailView.swift in Sources */,
+				020A0D4622DC501C75F8FA29 /* DetailViewModel.swift in Sources */,
+				7AC57D69E9A5209A2AADCAB5 /* FaviconView.swift in Sources */,
+				45E407AAFD0F4E9E2611336B /* FeedType.swift in Sources */,
+				DF52AD59EB7D55F5AB12A19B /* FeedView.swift in Sources */,
+				D729E58E268EF6ED1DD96724 /* FeedViewModel.swift in Sources */,
+				256DE56A966C155E9F7CB892 /* Formatters.swift in Sources */,
+				68205EC4841CE5836262345B /* HNAPIClient.swift in Sources */,
+				4ED660D1EB1F44588A038363 /* HTMLRenderer.swift in Sources */,
+				86103D52364DE7DA2EF1E102 /* Item.swift in Sources */,
+				CD22182DB8D34C1EA839DAAE /* ReaderExtractor.swift in Sources */,
+				EF2A428291558A9FBEC59DB7 /* ReaderModels.swift in Sources */,
+				7A5949CF8AB9A3BA4A11B7B1 /* ReaderView.swift in Sources */,
+				1792B66B1832555DC0FE2943 /* SafariView.swift in Sources */,
+				9481E6686EAD270A63D009FB /* SettingsView.swift in Sources */,
+				E8A4888F710BB5D5BA65681D /* StoryMetaView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		580688521204B94674FAA4FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D615ADE30ABF60D6F791C4C /* Orange Reader */;
+			targetProxy = AFB81E0DFB61E3F75FD3F2A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1CECBBD812FD898A5673F5DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Orange Reader.app/Orange Reader";
+			};
+			name = Release;
+		};
+		25F366A4B4B98E94A9BD92ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanloomba.minimalhackernews;
+				PRODUCT_NAME = "Orange Reader";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		88B76CBA648D1C35685F1280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Orange Reader.app/Orange Reader";
+			};
+			name = Debug;
+		};
+		97BE340B6A4628614148F245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanloomba.minimalhackernews;
+				PRODUCT_NAME = "Orange Reader";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B1931C9DC8DFA6DF11327434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E1F91DFA022DFEF16619952A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58682CC1FE92DCC92DFDC89F /* Build configuration list for PBXNativeTarget "OrangeReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88B76CBA648D1C35685F1280 /* Debug */,
+				1CECBBD812FD898A5673F5DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C5B026965F1AA2D59353A187 /* Build configuration list for PBXProject "OrangeReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1F91DFA022DFEF16619952A /* Debug */,
+				B1931C9DC8DFA6DF11327434 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D6E90E27E351D7C86D137D76 /* Build configuration list for PBXNativeTarget "Orange Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97BE340B6A4628614148F245 /* Debug */,
+				25F366A4B4B98E94A9BD92ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		87B55ED4DDCEE9942EADF1DD /* XCRemoteSwiftPackageReference "swift-readability" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Ryu0118/swift-readability.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E683AE05FA3E9AE0531B7418 /* Readability */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 87B55ED4DDCEE9942EADF1DD /* XCRemoteSwiftPackageReference "swift-readability" */;
+			productName = Readability;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E12EF824CFFDBF9D022F1A4D /* Project object */;
+}
