@@ -4,6 +4,7 @@ Minimal, fast Hacker News for iPhone (iOS 17+). SwiftUI + XcodeGen. Clean readin
 
 <img width="241.2" height="524.4" alt="Simulator Screenshot - iPhone 16 Pro - 2025-09-05 at 22 09 13" src="https://github.com/user-attachments/assets/105fe1d6-0042-4a04-9728-10aecbb16c7f" />
 <img width="241.2" height="524.4" alt="Simulator Screenshot - iPhone 16 Pro - 2025-09-05 at 22 09 50" src="https://github.com/user-attachments/assets/2d75e7d6-2554-44e3-b696-bddfe346b0e6" />
+</br>
 <img width="241.2" height="524.4" alt="Simulator Screenshot - iPhone 16 Pro - 2025-09-05 at 22 09 29" src="https://github.com/user-attachments/assets/db2a0332-e6f9-45d9-b923-34ec77fd933c" />
 <img width="241.2" height="524.4" alt="Simulator Screenshot - iPhone 16 Pro - 2025-09-05 at 22 09 39" src="https://github.com/user-attachments/assets/e93daf0a-2331-42da-b63d-7ee2df79a859" />
 
